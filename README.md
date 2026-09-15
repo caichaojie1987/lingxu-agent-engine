@@ -75,6 +75,27 @@ flowchart LR
 业务系统本身（CRM、销控、外呼管理台、ERP 对接）由你的后端与商业版承载；**本仓库是驱动
 这些 AI 环节的引擎**——它不管业务数据，但让每一个 AI 环节**可审计、可控费、可换内核、可回归评测**。
 
+## 系统实拍
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/02-dashboard.png" alt="集团驾驶舱"><br><sub>集团驾驶舱 · 项目经营一览</sub></td>
+    <td width="50%"><img src="docs/screenshots/03-sales-grid.png" alt="销控房态图"><br><sub>销控房态图 · 楼栋×房态矩阵</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/04-customers.png" alt="客户中心"><br><sub>客户中心 · 画像/评级/跟进全留痕</sub></td>
+    <td><img src="docs/screenshots/05-callcenter.png" alt="智能外呼"><br><sub>智能外呼 · 名单/任务/通话记录</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/06-kb.png" alt="企业知识库"><br><sub>企业知识库 · 口径审批同源</sub></td>
+    <td><img src="docs/screenshots/07-digital.png" alt="数字员工"><br><sub>数字员工</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/12-showroom.png" alt="案场展示屏"><br><sub>案场展示屏 · 客户交互大屏</sub></td>
+    <td><img src="docs/screenshots/11-site.png" alt="营销官网"><br><sub>营销官网 · 留资进平台线索</sub></td>
+  </tr>
+</table>
+
 ## 特性
 
 - **场景化会话**：每个业务场景（客服、问数、助手…）独立注册——系统提示 + 工具表 + 会话策略
