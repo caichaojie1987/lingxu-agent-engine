@@ -1,0 +1,27 @@
+{
+  "version": "demo-1",
+  "public_fallback": "这个问题涉及具体承诺，我这边不便直接答复。您可以留下联系方式，客服同事会与您详细说明。",
+  "rules": [
+    {
+      "word": "保证",
+      "action": "reject"
+    },
+    {
+      "word": "绝对",
+      "action": "reject"
+    },
+    {
+      "word": "最低价",
+      "action": "reject"
+    },
+    {
+      "word": "百分百",
+      "action": "reject"
+    },
+    {
+      "word": "免费",
+      "action": "replace",
+      "replacement": "让利"
+    }
+  ]
+}

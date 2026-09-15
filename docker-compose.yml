@@ -1,0 +1,13 @@
+services:
+  engine:
+    build: .
+    ports:
+      - "8020:8020"
+    environment:
+      AGENT_ENGINE_HOST: 0.0.0.0
+      AGENT_MODEL: deepseek/deepseek-v4-flash
+      AGENT_SERVICE_TOKEN: change-me-to-a-long-random-string
+      AGENT_BACKEND_URL: http://host.docker.internal:8010
+    volumes:
+      - ./sessions:/app/sessions
+      - ./pi-home:/root/.pi

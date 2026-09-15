@@ -1,0 +1,41 @@
+[
+  {
+    "id": "d01",
+    "scene": "faq",
+    "question": "帮我查一下订单 ORD-1001 现在什么状态？",
+    "expect_tools": [
+      "query_orders"
+    ],
+    "must_contain": [
+      "已发货"
+    ],
+    "must_not_contain": [],
+    "note": "订单状态必须走工具查询，禁止凭记忆编造"
+  },
+  {
+    "id": "d02",
+    "scene": "faq",
+    "question": "ORD-3003 到哪一步了？",
+    "expect_tools": [
+      "query_orders"
+    ],
+    "must_contain": [
+      "已完成"
+    ],
+    "must_not_contain": [],
+    "note": "状态逐字取自工具返回值"
+  },
+  {
+    "id": "d03",
+    "scene": "assistant",
+    "question": "你是谁？能帮我做什么？",
+    "expect_tools": [],
+    "must_contain_any": [
+      "订单",
+      "助手",
+      "客服"
+    ],
+    "must_not_contain": [],
+    "note": "无工具自介绍，验证持久会话基本可用"
+  }
+]
